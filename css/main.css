@@ -33,9 +33,13 @@ html {
 .hand {
   width: 14px;
   position: absolute;
+  left: calc(150px - 7px);
+  top: calc(150px - 7px);
 }
 
 .center {
   width: 28px;
   position: absolute;
+  left: calc(150px - 14px);
+  top: calc(150px - 14px);
 }
