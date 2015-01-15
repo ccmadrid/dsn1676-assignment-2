@@ -45,6 +45,7 @@ html {
   color: #000;
 }
 
+
 .green {
   background-color: #080;
   left: calc(50% - 135px);
@@ -65,12 +66,52 @@ html {
 
 }
 
+.hand-hour {
+  transform: rotate(0deg);
+  transform-origin: 50% 100% ;
+  transition: all 6s linear;
+}
+
+.hand-minute {
+  transform: rotate(0deg);
+  transform-origin: 50% 100%  ;
+  transition: all 6s linear;
+}
+
+.clock-face:hover .hand-hour {
+  transform: rotate(360deg);
+}
+
+.clock-face:hover .hand-minute {
+  transform: rotate(4320deg);
+}
+
 .hand {
   width: 14px;
   position: absolute;
   left: calc(150px - 7px);
   bottom: calc(150px);
 }
+
+
+
+.hand-hour:target {
+
+}
+
+.hand-minute:target {
+
+}
+
+#forward {
+
+}
+
+#backward {
+
+}
+
+
 
 .center {
   width: 28px;
