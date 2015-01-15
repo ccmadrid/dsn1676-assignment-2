@@ -21,6 +21,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 .main {
   position: relative;
 }
@@ -37,14 +38,13 @@ html {
   line-height: 100px;
   text-decoration: none;
   color: #fff;
-  transition: background-color, color, 200ms;
+  transition: background-color, color, 500ms;
 }
 
 .button:hover {
   background-color: #fff;
   color: #000;
 }
-
 
 .green {
   background-color: #080;
