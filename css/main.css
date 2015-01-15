@@ -37,6 +37,12 @@ html {
   line-height: 100px;
   text-decoration: none;
   color: #fff;
+  transition: background-color, color, 200ms;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .green {
