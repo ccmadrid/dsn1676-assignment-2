@@ -24,6 +24,11 @@ html {
 
 .main {
   position: relative;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
 }
 
 .button {
